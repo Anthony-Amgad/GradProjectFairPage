@@ -61,12 +61,17 @@
             background-color: greenyellow;
         }
         .contrib{
-            width: 100vh;
+            width: 40%;
         }
         .contrib tr td{
             font-weight: bold;
             text-shadow: -1px -1px 0 gold, 1px -1px 0 gold, -1px 1px 0 gold, 1px 1px 0 gold;
             text-align: center;
+        }
+        @media all and (max-width: 801px) {
+            .contrib{
+                width: 100%;
+            }
         }
     </style>
 </head>
